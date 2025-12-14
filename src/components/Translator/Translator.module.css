@@ -1,0 +1,24 @@
+.translatorWrapper {
+  margin-top: 8px;
+  padding: 18px 16px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background-color: rgba(180, 192, 219, 0.9)
+}
+
+.translatorTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.listsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .listsWrapper {
+    grid-template-columns: 1fr;
+  }
+}

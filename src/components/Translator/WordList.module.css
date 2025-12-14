@@ -1,0 +1,10 @@
+.wordList {
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  background-color: rgba(205, 211, 223, 0.9);
+  padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 160px;
+}

@@ -1,0 +1,30 @@
+.wordItem {
+  padding: 6px 8px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background-color 0.15s ease, border-color 0.15s ease,
+    transform 0.08s ease;
+}
+
+.wordItem:hover {
+  background-color: rgba(148, 163, 184, 0.14);
+  transform: translateY(-2px);
+}
+
+.wordItem:active {
+  transform: translateY(0);
+}
+
+.greenBorder {
+  border-color: var(--success);
+}
+
+.blueBorder {
+  border-color: #3b82f6;
+}
+
+.redBorder {
+  border-color: var(--danger);
+}
